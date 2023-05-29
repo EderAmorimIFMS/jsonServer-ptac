@@ -1,0 +1,28 @@
+{
+    "alunos" : [
+    {
+        "id": 1,
+        "nome": "Joao",
+        "num_inscricao": "111",
+        "curso": "Informatica"
+    },
+    {
+        "id": 2,
+        "nome": "maria",
+        "num_inscricao": "222",
+        "curso": "Agronomia"
+    },
+    {
+        "id": 3,
+        "nome": "Jose",
+        "num_inscricao": "333",
+        "curso": "Agropecuaria"
+    },
+    {
+        "id": 4,
+        "nome": "Silva",
+        "num_inscricao": "444",
+        "curso": "Programação"
+    }
+    ]
+}

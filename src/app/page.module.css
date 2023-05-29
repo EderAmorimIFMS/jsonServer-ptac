@@ -1,0 +1,72 @@
+.main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+ 
+}
+
+.container {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.fieldset {
+  width: 30%;
+  margin: 150px 600px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: #484D50;
+}
+
+.legend {
+  font-size: 30px;
+  color: white;
+}
+
+.input-text {
+margin: 5px;
+width: 200px;
+height: 30px;
+background-color: silver;
+color: black;
+border: 1px solid black;
+border-radius: 10px;
+font-size: 15px;
+}
+
+.card {
+  display: block;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 200px;
+  height: 250px;
+  background-color: #484D50;
+  margin: 10px 50px;
+  text-align: center;
+}
+
+.p {
+  color: white;
+  font-size: 20px;
+}
+
+.button {
+  width: 50%;
+  height: 30px;
+  border: 1px solid black;
+  color:white;
+  background-color: #90ee90 ;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.h1 {
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   font-size: 41px;
+}
+
