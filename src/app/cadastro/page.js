@@ -30,23 +30,23 @@ export default function Cadastro() {
         }).then(function(){ route.push("/")}).catch(()=> console.log("Não foi possível cadastrar!"))
     }
     return (
-        <div className={estilo.main}>
+        <div className={styles.main}>
             <form action='' onSubmit={cadastrar}>
-                <fieldset className={estilo.fieldset}>
-                    <legend className={estilo.legend}>
+                <fieldset className={styles.fieldset}>
+                    <legend className={styles.legend}>
                      Cadastrar
                     </legend>
                 </fieldset>
                 
                 <input placeholder='INFORME O NOME DO ALUNO' nome="nome" type="text"
-                    onChange={e => setNome(e.target.value)} className={estilo.input-text}></input><br/>
+                    onChange={e => setNome(e.target.value)} className={styles.input-text}></input><br/>
 
                 <input placeholder='INFORME O CURSO' nome="curso" type="text"
-                    onChange={e => setCurso(e.target.value)} className={estilo.input-text}></input><br/>
+                    onChange={e => setCurso(e.target.value)} className={styles.input-text}></input><br/>
 
                 <input placeholder='INFORME Nº DE INSCRIÇÃO' nome="num_inscricao" type="number"
-                    onChange={e => setNum_inscricao(e.target.value)} className={estilo.input-text}></input><br/>
-                <button type='submit' className={estilo.button}>CADASTRAR</button>
+                    onChange={e => setNum_inscricao(e.target.value)} className={styles.input-text}></input><br/>
+                <button type='submit' className={styles.button}>CADASTRAR</button>
                 <a href='/'>Voltar</a>
             </form>
         </div>
