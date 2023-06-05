@@ -1,10 +1,17 @@
+.body {
+  background-color: black;
+}
+
 .main {
-  display: flex;
+  display: block;
   text-align: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
-  background-color: black;
+}
+
+.navbar {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-around;
 }
 
 .container {
@@ -15,10 +22,11 @@
 }
 
 .fieldset {
-  width: 40%;
+  display: block;
   margin: 150px 600px;
   border: 2px solid white;
   border-radius: 20px;
+  padding: 50px 10px;
 }
 
 .legend {
@@ -27,15 +35,16 @@
   color: white;
 }
 
-.input-text {
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-margin-bottom: 10px;
-margin: 5px;
-width: 200px;
-height: 30px;
-color: white;
-border: 1px solid white;
-font-size: 20px;
+.inputtext {
+    align-self: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 25px;
+    color: white;
+    border-bottom: 3px solid white;
+    font-size: 20px;
+    background-color: black;
 }
 
 .card {
@@ -56,12 +65,25 @@ font-size: 20px;
 
 .button {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 40%;
+  width: 160px;
   height: 30px;
-  color:white;
+  color:black;
   background-color: #90ee90 ;
   font-size: 20px;
   border-radius: 5px;
+  margin-top: 20px;
+}
+
+.buttonR {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 140px;
+  height: 30px;
+  margin-top: 60px;
+  color:black;
+  background-color:	#FF6347 ;
+  font-size: 20px;
+  border-radius: 5px;
+  align-self: bottom;
 }
 
 .h1 {
@@ -69,5 +91,14 @@ font-size: 20px;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    text-align: center;
    font-size: 41px;
+}
+
+.text {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    margin: 5px;
 }
 

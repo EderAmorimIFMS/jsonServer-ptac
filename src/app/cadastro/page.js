@@ -31,23 +31,31 @@ export default function Cadastro() {
     }
     return (
         <div className={styles.main}>
+
+            <h1 className={styles.h1}>Cadastrar</h1>
+
             <form action='' onSubmit={cadastrar}>
+            
                 <fieldset className={styles.fieldset}>
                     <legend className={styles.legend}>
                      Cadastrar
                     </legend>
-                </fieldset>
+
+                <input placeholder='Informe o nome do aluno.' nome="nome" type="text"
+                    onChange={e => setNome(e.target.value)} className={styles.inputtext}></input><br/>
+
                 
-                <input placeholder='INFORME O NOME DO ALUNO' nome="nome" type="text"
-                    onChange={e => setNome(e.target.value)} className={styles.input-text}></input><br/>
+                <input placeholder='Informe o curso.' nome="curso" type="text"
+                    onChange={e => setCurso(e.target.value)} className={styles.inputtext}></input><br/>
 
-                <input placeholder='INFORME O CURSO' nome="curso" type="text"
-                    onChange={e => setCurso(e.target.value)} className={styles.input-text}></input><br/>
+                <input placeholder='Informe o Nº de inscrição.' nome="num_inscricao" type="number"
+                    onChange={e => setNum_inscricao(e.target.value)} className={styles.inputtext}></input><br/>
 
-                <input placeholder='INFORME Nº DE INSCRIÇÃO' nome="num_inscricao" type="number"
-                    onChange={e => setNum_inscricao(e.target.value)} className={styles.input-text}></input><br/>
+       
+                <a className={styles.text} href='/'>Voltar</a>
                 <button type='submit' className={styles.button}>CADASTRAR</button>
-                <a href='/'>Voltar</a>
+  
+                </fieldset>
             </form>
         </div>
 

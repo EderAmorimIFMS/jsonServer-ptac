@@ -1,0 +1,108 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/app/page.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+.page_body__Ks1Bt {
+  background-color: black;
+}
+
+.page_main__ibFHK {
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+
+.page_navbar__x1ZbP {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-around;
+}
+
+.page_container__HHToX {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+}
+
+.page_fieldset__dOTWn {
+  display: block;
+  margin: 150px 600px;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 50px 10px;
+}
+
+.page_legend___BCM_ {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.page_inputtext__QVc6T {
+    align-self: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 25px;
+    color: white;
+    border-bottom: 3px solid white;
+    font-size: 20px;
+    background-color: black;
+}
+
+.page_card__ftWzl {
+  display: block;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 200px;
+  height: 250px;
+  margin: 10px 50px;
+  text-align: center;
+}
+
+.page_p__66qST {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 25px;
+}
+
+.page_button__unFcb {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 160px;
+  height: 30px;
+  color:black;
+  background-color: #90ee90 ;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.page_buttonR__gKyHP {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 140px;
+  height: 30px;
+  margin-top: 60px;
+  color:black;
+  background-color:	#FF6347 ;
+  font-size: 20px;
+  border-radius: 5px;
+  align-self: bottom;
+}
+
+.page_h1__R0zbi {
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   font-size: 41px;
+}
+
+.page_text__sneHE {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    margin: 5px;
+}
+
+

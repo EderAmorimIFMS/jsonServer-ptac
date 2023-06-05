@@ -1,4 +1,5 @@
-import { Inter } from 'next/font/google'
+import { Inter } from 'next/font/google';
+import styles from './page.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -10,8 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body>
-        {children}</body>
+      <body className={styles.body}>
+        {children}
+      </body>
     </html>
   )
 }

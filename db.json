@@ -1,28 +1,76 @@
 {
-    "alunos" : [
+  "alunos": [
     {
-        "id": 1,
-        "nome": "Joao",
-        "num_inscricao": "111",
-        "curso": "Informatica"
+      "id": 1,
+      "nome": "Joao",
+      "num_inscricao": "111",
+      "curso": "Informatica"
     },
     {
-        "id": 2,
-        "nome": "maria",
-        "num_inscricao": "222",
-        "curso": "Agronomia"
+      "id": 2,
+      "nome": "maria",
+      "num_inscricao": "222",
+      "curso": "Agronomia"
     },
     {
-        "id": 3,
-        "nome": "Jose",
-        "num_inscricao": "333",
-        "curso": "Agropecuaria"
+      "id": 3,
+      "nome": "Jose",
+      "num_inscricao": "333",
+      "curso": "Agropecuaria"
     },
     {
-        "id": 4,
-        "nome": "Silva",
-        "num_inscricao": "444",
-        "curso": "Programação"
+      "id": 4,
+      "nome": "Silva",
+      "num_inscricao": "444",
+      "curso": "Programação"
+    },
+    {
+      "id": 5,
+      "nome": "Carlos",
+      "num_inscricao": "555",
+      "curso": "Informatica"
+    },
+    {
+      "id": 6,
+      "nome": "Jubileu",
+      "num_inscricao": "666",
+      "curso": "Agronomia"
+    },
+    {
+      "id": 7,
+      "nome": "Doroteia",
+      "num_inscricao": "777",
+      "curso": "Agropecuaria"
+    },
+    {
+      "id": 8,
+      "nome": "Marcelino",
+      "num_inscricao": "888",
+      "curso": "Programação"
+    },
+    {
+      "id": 9,
+      "nome": "Lucas",
+      "num_inscricao": "999",
+      "curso": "Informatica"
+    },
+    {
+      "id": 10,
+      "nome": "Naara",
+      "num_inscricao": "101010",
+      "curso": "Agronomia"
+    },
+    {
+      "id": 11,
+      "nome": "Geovana",
+      "num_inscricao": "111111",
+      "curso": "Agropecuaria"
+    },
+    {
+      "id": 12,
+      "nome": "Erick",
+      "num_inscricao": "121212",
+      "curso": "Programação"
     }
-    ]
+  ]
 }
